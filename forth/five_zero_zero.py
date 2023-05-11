@@ -29,3 +29,8 @@ class Solution:
             if count == 0:
                 res.append(word)
         return res
+
+
+if __name__ == '__main__':
+    s = Solution()
+    s.find_words()
